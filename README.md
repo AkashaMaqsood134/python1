@@ -1,1 +1,2 @@
-# python1
+Tic Tac Toe:
+This is a multiplayer Tic-Tac-Toe game implemented using Python sockets. The server waits for two players to connect, manages the game board, and ensures turn-based play. Clients connect to the server, display the board, accept player moves, and send them to the server. The game follows standard Tic-Tac-Toe rules, where players take turns marking a 3x3 grid, aiming to align three marks in a row, column, or diagonal. The server detects wins, draws, and invalid moves. The project uses threading for concurrent connections and includes basic error handling.
